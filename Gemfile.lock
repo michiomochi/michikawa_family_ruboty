@@ -9,13 +9,6 @@ GEM
     chrono (0.4.0)
       activesupport
     concurrent-ruby (1.0.5)
-    docomoru (0.1.4)
-      activesupport
-      faraday
-      faraday_middleware
-      json
-      rack
-      slop
     dotenv (2.5.0)
     event_emitter (0.2.6)
     eventmachine (1.2.7)
@@ -28,12 +21,10 @@ GEM
       websocket-driver (>= 0.5.1)
     i18n (1.1.0)
       concurrent-ruby (~> 1.0)
-    json (2.1.0)
     mem (0.1.5)
     minitest (5.11.3)
     multi_json (1.13.1)
     multipart-post (2.0.0)
-    rack (2.0.5)
     rake (12.3.1)
     redis (4.0.2)
     redis-namespace (1.6.0)
@@ -63,9 +54,6 @@ GEM
       ruboty (>= 1.1.4)
       slack-api (~> 1.6)
       websocket-client-simple (~> 0.3.0)
-    ruboty-talk (0.0.5)
-      docomoru (>= 0.0.3)
-      ruboty (>= 1.1.0)
     ruboty-weather (0.0.5)
       faraday
       faraday_middleware
@@ -99,8 +87,10 @@ DEPENDENCIES
   ruboty-redis
   ruboty-replace
   ruboty-slack_rtm
-  ruboty-talk
   ruboty-weather
+
+RUBY VERSION
+   ruby 2.5.1p57
 
 BUNDLED WITH
    1.16.4
